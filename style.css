@@ -28,3 +28,49 @@ h3 {
   color: rgba(128, 128, 128, 0.308);
   margin-top: 20px;
 }
+.navbar {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  display: flex;
+}
+
+nav {
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  transition: 1s;
+}
+.navHidden {
+  transform: translateX(-150%);
+}
+
+.arrow {
+  transition: 0.5s;
+}
+.arrowRotate {
+  transform: rotate(180deg);
+}
+
+label,
+span {
+  height: 50px;
+  width: 50px;
+  color: gray;
+  display: inline-block;
+  font-size: 2rem;
+  z-index: 10;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+input {
+  display: none;
+}
+
+input:checked + label {
+  transform: scale(1.2);
+  color: black;
+}

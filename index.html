@@ -4,11 +4,41 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="./style.css" />
     <title>Document</title>
   </head>
   <body>
     <h3>0</h3>
+    <div class="navbar">
+      <div class="arrow">
+        <span><i class="fa-solid fa-play"></i></span>
+      </div>
+      <nav>
+        <input type="radio" name="soundSelect" id="gun" />
+        <label for="gun">
+          <i class="fa-solid fa-gun"></i>
+        </label>
+
+        <input type="radio" name="soundSelect" id="raygun" />
+        <label for="raygun">
+          <i class="fa-brands fa-galactic-republic"></i>
+        </label>
+
+        <input type="radio" name="soundSelect" id="bubbleSoap" />
+        <label for="bubbleSoap">
+          <i class="fa-solid fa-soap"></i>
+        </label>
+
+        <input type="radio" name="soundSelect" id="mute" />
+        <label for="mute">
+          <i class="fa-solid fa-volume-xmark"></i>
+        </label>
+      </nav>
+    </div>
     <script src="./index.js"></script>
   </body>
 </html>
