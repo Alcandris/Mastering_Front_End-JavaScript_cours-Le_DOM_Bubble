@@ -33,6 +33,7 @@ h3 {
   bottom: 5%;
   left: 5%;
   display: flex;
+  overflow: hidden;
 }
 
 nav {
